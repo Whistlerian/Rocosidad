@@ -5,12 +5,12 @@
   "description": "App para trackear tus ganancias en el gym y alcanzar la máxima rocosidad.",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "/Rocosidad/assets/icon-192-dd1S5WTC.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "icon-512.png",
+      "src": "/Rocosidad/assets/icon-192-dd1S5WTC.png",
       "type": "image/png",
       "sizes": "512x512"
     }
