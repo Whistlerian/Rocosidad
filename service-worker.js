@@ -1,8 +1,8 @@
 
 const CACHE_NAME = 'rocosidad-cache-v1';
 const urlsToCache = [
-  '/',
-  '/index.html',
+  './',
+  './index.html',
 ];
 
 self.addEventListener('install', event => {
