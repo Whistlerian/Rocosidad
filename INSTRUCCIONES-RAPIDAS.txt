@@ -1,0 +1,93 @@
+═══════════════════════════════════════════════════════════════════
+  ROCOSIDAD GYM TRACKER - INSTRUCCIONES DE PUBLICACIÓN
+═══════════════════════════════════════════════════════════════════
+
+✅ TU APP ESTÁ ARREGLADA Y LISTA PARA GITHUB PAGES
+
+═══════════════════════════════════════════════════════════════════
+  PASO 1: PROBAR LOCALMENTE
+═══════════════════════════════════════════════════════════════════
+
+Abre la terminal en la carpeta del proyecto y ejecuta:
+
+    npm install
+    npm run dev
+
+Abre tu navegador en: http://localhost:3000
+Si funciona, continúa al Paso 2.
+
+═══════════════════════════════════════════════════════════════════
+  PASO 2: CREAR REPOSITORIO EN GITHUB
+═══════════════════════════════════════════════════════════════════
+
+1. Ve a: https://github.com/new
+
+2. Configura:
+   - Repository name: Rocosidad
+   - Description: Gym Tracker App
+   - Public (público)
+   - NO marques "Initialize with README"
+
+3. Click en "Create repository"
+
+═══════════════════════════════════════════════════════════════════
+  PASO 3: SUBIR EL CÓDIGO
+═══════════════════════════════════════════════════════════════════
+
+En la terminal, ejecuta estos comandos uno por uno:
+
+    git add .
+
+    git commit -m "Initial commit - App lista para deployment"
+
+    git remote add origin https://github.com/whistlerian/Rocosidad.git
+
+    git push -u origin main
+
+═══════════════════════════════════════════════════════════════════
+  PASO 4: ACTIVAR GITHUB PAGES
+═══════════════════════════════════════════════════════════════════
+
+1. Ve a tu repositorio: https://github.com/whistlerian/Rocosidad
+
+2. Click en "Settings" (arriba a la derecha)
+
+3. En el menú de la izquierda, click en "Pages"
+
+4. En "Source", selecciona: "GitHub Actions"
+
+5. ¡Listo! Espera 2-3 minutos
+
+═══════════════════════════════════════════════════════════════════
+  TU APP ESTARÁ DISPONIBLE EN:
+═══════════════════════════════════════════════════════════════════
+
+    https://whistlerian.github.io/Rocosidad/
+
+═══════════════════════════════════════════════════════════════════
+  PROBLEMAS CORREGIDOS:
+═══════════════════════════════════════════════════════════════════
+
+✅ Conflictos en index.html (2 scripts duplicados)
+✅ Archivo index.css faltante
+✅ Iconos PWA generados (icon-192.png, icon-512.png, favicon.ico)
+✅ Configuración de Vite para GitHub Pages
+✅ API de Google AI corregida (ahora opcional)
+✅ Git inicializado
+✅ GitHub Actions configurado para deploy automático
+
+═══════════════════════════════════════════════════════════════════
+  ARCHIVOS DE AYUDA:
+═══════════════════════════════════════════════════════════════════
+
+📄 RESUMEN.md              - Resumen visual de cambios
+📄 DEPLOY.md               - Guía completa y detallada
+📄 CAMBIOS.md              - Documentación técnica
+
+═══════════════════════════════════════════════════════════════════
+  ¿NECESITAS AYUDA?
+═══════════════════════════════════════════════════════════════════
+
+Lee DEPLOY.md para instrucciones más detalladas y solución de problemas.
+
+═══════════════════════════════════════════════════════════════════

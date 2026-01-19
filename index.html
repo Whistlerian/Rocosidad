@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-black">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- PWA and Mobile Experience Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="theme-color" content="#101010" />
+    <link rel="apple-touch-icon" href="./icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <title>Rocosidad Gym Tracker</title>
+
+    <!-- Badass Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-yellow': '#F3F31A',
+              'brand-dark': '#101010',
+              'brand-gray': '#1E1E1E',
+              'brand-light-gray': '#3A3A3A',
+            },
+            fontFamily: {
+              sans: ['Bebas Neue', 'sans-serif'],
+            }
+          },
+        },
+      }
+    </script>
+  </head>
+  <body class="h-full antialiased">
+    <div id="root" class="h-full"></div>
+    <script type="module" src="/index.jsx"></script>
+  </body>
+</html>
